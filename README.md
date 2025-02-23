@@ -1,1 +1,3 @@
 # Juvi-s-ETL-Project
+
+Description - This repository contains a Python 3 solution for scraping, transforming, and outputting NHL hockey team statistics from a web source. It utilizes BeautifulSoup4 and aiohttp to scrape data, creates a zip archive of raw HTML files, and generates an Excel workbook with detailed team statistics and yearly win/loss summaries. Implemented without pandas, numpy, or scrapy, this project emphasizes efficient data processing, unit testing with pytest (mocking HTTP requests), and adherence to performance goals (target <10 seconds execution). Includes type annotations, modular code, a requirements.txt file, and a README with execution instructions.
